@@ -942,9 +942,9 @@ section {
 
 .portfolio .portfolio-item .portfolio-info .preview-link,
 .portfolio .portfolio-item .portfolio-info .details-link {
-  position: absolute;
-  top: 55%;
-  left: 47%;
+  position: inherit;
+  top: 65%;
+  left: 49%;
   transform: translate(-50%, -50%);
   font-size: 24px;
   color: #fff;
@@ -957,11 +957,11 @@ section {
 }
 
 .portfolio .portfolio-item .portfolio-info .details-link {
-  position: absolute;
+  position: inherit;
   top: 55%;
-  left: 53%;
+  left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 24px;
+  font-size: 18px;
   color: #fff;
   transition: 0.3s;
 }
