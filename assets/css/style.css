@@ -934,6 +934,19 @@ section {
   text-align: center;
 }
 
+.portfolio .portfolio-item .portfolio-info h5 {
+  font-size: 22px;
+  color: #fff;
+  font-weight: 600;
+  color: #fff;
+  position: absolute;
+  top: 45%;
+  left: 48%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
 .portfolio .portfolio-item .portfolio-info p {
   color: rgba(255, 255, 255, 0.8);
   font-size: 14px;
