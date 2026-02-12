@@ -316,7 +316,7 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/hero-bg.jpg") top right;
+  background: url("../img/De Anna Edmund Background.jpg") top right;
   background-size: cover;
   position: relative;
 }
@@ -538,7 +538,6 @@ section {
   font-weight: 700;
   font-size: 26px;
   color: #3b434a;
-  text-transform: uppercase;
 }
 
 .about .content ul {
@@ -611,7 +610,7 @@ section {
 }
 
 .about .image {
-  background: url("../img/me.jpg") center center no-repeat;
+  background: url("../img/De Anna Edmund Portrait.jpg") center center no-repeat;
   background-size: cover;
   min-height: 500px;
 }
@@ -920,6 +919,10 @@ section {
   background: rgba(0, 0, 0, 0.5);
   width: 94.5%;
   height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
 }
 
 .portfolio .portfolio-item .portfolio-info h4 {
@@ -927,11 +930,7 @@ section {
   color: #fff;
   font-weight: 600;
   color: #fff;
-  position: absolute;
-  top: 45%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
+  padding: 0px 20px 0px 20px;
 }
 
 .portfolio .portfolio-item .portfolio-info h5 {
@@ -939,26 +938,18 @@ section {
   color: #fff;
   font-weight: 600;
   color: #fff;
-  position: absolute;
-  top: 45%;
-  left: 48%;
-  transform: translate(-50%, -50%);
-  text-align: center;
+  padding: 0px 20px 0px 20px;
 }
 
 
 .portfolio .portfolio-item .portfolio-info p {
   color: rgba(255, 255, 255, 0.8);
   font-size: 14px;
-  margin-bottom: 0;
+
 }
 
 .portfolio .portfolio-item .portfolio-info .preview-link,
 .portfolio .portfolio-item .portfolio-info .details-link {
-  position: inherit;
-  top: 65%;
-  left: 49%;
-  transform: translate(-50%, -50%);
   font-size: 24px;
   color: #fff;
   transition: 0.3s;
@@ -970,20 +961,15 @@ section {
 }
 
 .portfolio .portfolio-item .portfolio-info .details-link {
-  position: inherit;
-  top: 55%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   font-size: 18px;
   color: #fff;
   transition: 0.3s;
+  text-align: center;
+  padding: 0px 35px 0px 35px;
 }
 
 .con-preview-link {
-  position: absolute;
-  top: 57%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  padding: 0px 10px 0px 10px;
   font-size: 24px;
   color: #fff;
   transition: 0.3s;
@@ -1028,6 +1014,7 @@ section {
 .portfolio-details .portfolio-info {
   padding: 30px;
   box-shadow: 0px 0 30px rgba(59, 67, 74, 0.08);
+  font-size: 15px;
 }
 
 .portfolio-details .portfolio-info h3 {
@@ -1041,7 +1028,7 @@ section {
 .portfolio-details .portfolio-info ul {
   list-style: none;
   padding: 0;
-  font-size: 15px;
+  font-size: 16px;
 }
 
 .portfolio-details .portfolio-info ul li+li {
@@ -1340,7 +1327,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: url("../img/footer-bg.jpg") top center no-repeat;
+  background: url("../img/De Anna Emund Footer.jpg") top center no-repeat;
   background-size: cover;
   color: #fff;
   font-size: 14px;
